@@ -37,7 +37,7 @@ void VeTraiTim()
 
 int main()
 {
-	vetraitim:
+	while(true){
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_BLUE | FOREGROUND_INTENSITY);
 		VeTraiTim();
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_RED | FOREGROUND_INTENSITY);
@@ -52,6 +52,6 @@ int main()
 		VeTraiTim();
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_GREEN | FOREGROUND_BLUE | FOREGROUND_RED | FOREGROUND_INTENSITY);
 		VeTraiTim();
-	goto vetraitim;
+	}
 }
 

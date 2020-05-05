@@ -21,12 +21,9 @@ void VeTraiTim()
 
 int main()
 {
-	int x = 0;
-	while (x <= 10)
+	while (true)
 	{
 		VeTraiTim();
-		x++;
 	}
-	system("pause");
 }
 
